@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Forms</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+	<style>
+	/* Custom Styles */
+body {
+	background-image: linear-gradient(to right, #86DFF7 ,#0A6069);
+    padding-top: 50px;
+}
+
+.login-form {
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.admii{
+  background-image: linear-gradient(to right, #196F3D ,#58D68D);
+}
+
+.studd{
+  background-image: linear-gradient(to right, #DA6B08 ,#FC984A);
+}
+
+.facu{
+  background-image: linear-gradient(to right, #0B6DB4 ,#0CBCFE);
+}
+
+@media (max-width: 768px) {
+    .login-form {
+        margin-top: 20px;
+    }
+}
+
+	</style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <form class="login-form admii">
+                    <img src="admin.png" width="100%" style="padding-bottom:10px">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form class="login-form studd">
+                    <img src="student.png" width="100%" style="padding-bottom:10px">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <form class="login-form facu">
+                    <img src="faculty.png" width="100%" style="padding-bottom:10px">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
